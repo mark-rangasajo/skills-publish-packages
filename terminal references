@@ -1,0 +1,8 @@
+Generate Token>>see settings*
+
+docker pull ghcr.io/YOURNAME/publish-packages/game: sha-8cf3ec6
+
+docker run -dp 8080:80 --rm ghcr.io/mark-rangasajo/publish-packages/game:sha-8cf3ec6
+
+ localhost:8080
+#its a tic tac toe
